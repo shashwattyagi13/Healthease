@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🩺 HealthEase — Full-Stack Doctors Appointment Platform
 
-## Getting Started
+Built with **Next.js 15**, **Prisma + Neon (Postgres)**, **Tailwind CSS v4**, **shadcn/ui**, **Clerk Auth**, and **Vonage** for secure video consultations.  
 
-First, run the development server:
+HealthEase is a modern platform for browsing doctors, booking appointments, and conducting online consultations, with a clean and responsive UI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 👤 **Patients**: Register, browse doctors, book appointments, join video consults
+- 👩‍⚕️ **Doctors**: Manage availability, appointments, and consult patients online
+- 🛠️ **Admins**: Approve doctors, oversee appointments, manage specialties
+- 📅 **Real-time slot booking** with Prisma-backed DB
+- 🔒 **Authentication & Roles** powered by Clerk
+- 🎥 **Video consultations** with Vonage SDK
+- 🎨 **Beautiful UI** with Tailwind CSS v4 + shadcn/ui + Radix primitives
+- 🌗 **Dark mode** via next-themes
+- 🧩 **Form validation** with React Hook Form + Zod
+- ⚡ **Blazing fast dev mode** with Turbopack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧱 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 15 (App Router + Turbopack)
+- **Database/ORM:** Prisma + Neon Postgres
+- **Auth:** Clerk
+- **UI:** Tailwind CSS v4, shadcn/ui, Radix
+- **Forms & Validation:** React Hook Form + Zod
+- **Video SDK:** Vonage
+- **Icons:** Lucide React
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Project Structure
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
