@@ -31,7 +31,5 @@ HealthEase is a modern platform for browsing doctors, booking appointments, and 
 - **Video SDK:** Vonage
 - **Icons:** Lucide React
 
----
 
-## 📂 Project Structure
 
